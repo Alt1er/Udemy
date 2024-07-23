@@ -1,4 +1,62 @@
-// "use steict"
+"use strict"
+
+let num = 20;
+
+function showFirstMassege(text) {
+    console.log(text)
+    let num = 10;
+    console.log(num)
+}
+
+showFirstMassege("Hello world");
+console.log(num)
+
+
+
+function calc(a,b){
+    return (a + b);
+}
+
+console.log(calc(3,4));
+console.log(calc(5,6));
+console.log(calc(14,14));
+
+function ret(){
+    let num = 50;
+    return num;
+}
+
+const anoherNum = ret();
+console.log(anoherNum)
+
+
+const loger = function() {
+    console.log("Hellow world")
+};
+loger();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // const numberOfFilms = prompt('Скільки фільмів ви вж переглянули?', '');
@@ -37,19 +95,3 @@
 // }
 
 // personalMovieDB.movies[lastFilm] = mark;
-
-// for(let i = 1; i <= 5; i++){
-//     console.log(i)
-// }
-
-// for(let i = 1; i <= 10; i++){
-//     console.log(`3 * ${i} = ` + i * 3)
-// }
-
-let enter = prompt("Введіть число")
-let sum = 0;
-
-for(let i = 1; i <= enter; i++){
-   sum = sum + i;
-}
-console.log(sum)
